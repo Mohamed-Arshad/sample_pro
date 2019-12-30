@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-style:italic;
+	color:#009;
+	text-align:center;
+	
+	
+}
+
+h2
+{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-style:oblique;
+	color:#336;
+}
+
+body
+{
+
+	
+}
