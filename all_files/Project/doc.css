@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+input[type=text].log,input[type=password].log
+{
+	padding:4px;
+	border:1px solid #CCC;
+	border-color:#FB339C;
+	border-radius:4px;
+	box-sizing:border-box;
+	resize:vertical
+}
+
+
+input[type=submit] ,input[type=reset] {
+    background-color:#F00;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover ,input[type=reset]:hover {
+    background-color:#FF0080;
+}
+a{ text-decoration:none}
+h1
+{
+	font-family:"Comic Sans MS", cursive;
+	font-size:42px;
+	color:#F00
+}
+body{
+	font-family: "Comic Sans MS", cursive;
+}
+table.header{
+	background-image:url(doc1.jpg);
+	background-size:cover;
+	background-position:right;
+	background-repeat:no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #F00;
+}
+
+li{
+	float:left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover {
+  background-color: #FF0080;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color:#FFF;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #6FF}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+div.non{
+	height:60px;
+}
