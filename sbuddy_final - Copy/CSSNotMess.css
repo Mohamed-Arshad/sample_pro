@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+input[type=text].log,input[type=password].log
+{
+	padding:6px;
+	border:1px solid #CCC;
+	border-color:#FB339C;
+	border-radius:4px;
+	box-sizing:border-box;
+	resize:vertical;
+	width:300px;
+}
+
+
+input[type=submit] ,input[type=reset] {
+    background:linear-gradient(to right, lightblue, white);
+    color:black;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:800;
+    padding: 12px 20px;
+    border:0;
+    border-radius: 4px;
+    cursor: pointer;
+	border-color:#333;
+}
+
+
+input[type=submit]:hover ,input[type=reset]:hover {
+    background-color:skyblue;
+}
+
+body{
+	/*background-color:#E3E3FF;*/
+	background-color:#FFFFFF;
+}
+.headerr{
+	background-image:url(IMG-7592_1.jpg);
+	background-size:contain;
+	width:100%;	
+}
+.sbud{
+	margin-left:300px;
+	margin-top:-100px;
+}
+.HeaderLogout{
+	float:right;
+	margin-top:-60px;
+	margin-right:20px;
+}
+.barZone{
+	position:absolute;
+	width:100%;
+	margin-top:30px;
+	
+}
+.bar{
+	width:100%;
+	height:50px;	
+	background:linear-gradient(lightblue,lightblue);
+	position:fixed;
+	
+	margin-top:0px;
+}
+.bar .enq{
+	width:90%;
+	margin-right:750px;
+	margin-left:0px;
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  overflow: hidden;
+  background:linear-gradient(lightblue,lightblue);
+  
+}
+.lo{
+	width:50px;
+	height:20px;
+}
+li{
+	float:left;
+}
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  
+}
+li a:hover, .dropdown:hover {
+  background-color:#FFF;
+  border-radius:5px;
+  opacity:.9;
+}
+.active {
+  background:linear-gradient(to bottom, lightblue, white);
+  border-radius:10px;
+}
+
+/*---------------------*/
+
+.ZoneS{
+	
+	background-color:#000;
+	color:#CCC;
+	width:150px;
+	margin-top:130px;
+	margin-left:182px;
+	font-family: 'Righteous';
+ 	background:linear-gradient(lightblue,white);
+}
+
+ul1 {
+  list-style-type: none;
+  
+  overflow: hidden;
+  
+  
+}
+li1{
+	float:left;
+	top:auto;
+	/*background-color:#FFF;*/
+	border-radius:5px;
+	font-style:oblique;
+	font-family: 'Righteous';
+ 	background:linear-gradient(lightblue,lightgrey);
+	margin-left:px;
+	
+	
+
+}
+
+li1 a {
+  display: block;
+  color: #000;
+  text-align:start;
+  padding: 12px 20px;
+  text-decoration: none;
+   
+}
+
+li1 a:hover, .dropdown:hover {
+  background-color:#CCC;
+  border-radius:10px;
+}
+
+
+/*Middle part*/
+.Notification {
+  margin-left:210px;
+  font-size: 20px;
+  font-family: 'Righteous';
+  background:linear-gradient(lightblue,white);
+  width: 68.5%;
+  height:auto;
+  margin-top: 100px;
+}
+.not{
+	
+	text-align:start;
+	margin-left:100px;	
+	width:80%;
+	margin-bottom:40px;
+	height:auto;
+	padding:1px;
+}
+
+.NotificationImg{
+	width:50px;
+    text-align: center;
+ 	top:5px;  
+    height: 40px;
+	border-radius:50px;
+	background-color:#FFF;
+	margin-top:15px;
+	margin-left:0px;
+	margin-bottom:10px;
+		
+}
+.NotificationDef{
+	margin-left:60px;
+	margin-top:-40px;
+}
+.NotificationTime{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:-15px;
+	margin-left:520px;
+	font-size:12px;
+
+		
+}
+.editH{
+	margin-left:100px;
+}
+/************************message**/
+.Message {
+  margin-left:210px;
+  font-size: 20px;
+  font-family: 'Righteous';
+  background:linear-gradient(lightblue,white);
+  width: 68.5%;
+  height:auto;
+  margin-top: 100px;
+}
+.Mes{
+	
+	text-align:start;
+	margin-left:100px;	
+	width:80%;
+	margin-bottom:40px;
+	height:auto;
+	padding:1px;
+}
+.mName{
+	margin-left:350px;
+	font-family:Verdana, Geneva, sans-serif;	
+}
+.mBox{
+	height:400px;
+}
+.rMessage{
+	width:100px;
+	height:40px;
+	margin-left:10px;
+	background-color:#DFFFFF;
+}
+.lMessage{
+	width:100px;
+	height:40px;
+	margin-left:690px;
+	background-color:#FFD0D0;
+}
+.mSend{
+	margin-left:690px;
+	margin-top:-40px;
+}

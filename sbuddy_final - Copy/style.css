@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bar{
+	width:100%;
+	height:50px;	
+	background:linear-gradient(lightblue,lightblue);
+	position:fixed;
+	margin-top:2px;
+}
+.bar .enq{
+	width:90%;
+	margin-right:750px;
+	margin-left:0px;
+	margin-top:auto;
+}
+ul {
+  list-style-type: none;
+  margin:0;
+  overflow: hidden;
+  background:linear-gradient(lightblue,lightblue);
+  
+}
+.lo{
+	width:50px;
+	height:20px;
+	cursor:pointer;
+}
+
+li{
+	float:left;
+}
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  
+  
+}
+li a:hover, .dropdown:hover {
+  background-color:#FFF;
+  border-radius:5px;
+  opacity:.9;
+}
+.active {
+  background:linear-gradient(to bottom, lightblue, white);
+  border-radius:10px;
+
+  
+}
+
+.container-fluid{
+	margin-top: 3px;
+}
+
+#chatdisplay{
+	margin-top: 4px;
+}
+
+#chatbox{
+	width:40%;
+	height:350px;
+	margin:0 auto;
+	margin-top: 2px;	
+}
+
+#mychatform{
+	text-align:center;
+	overflow-y:auto;	
+}
+
+input[type ="text"]{
+	width:40%;
+	padding:2px;
+	margin:3px;
+}
+
+textarea{
+	width:40%;
+	padding:2px;
+	margin:3px;	
+}
+
+#sendmessagebtn{
+	width:40%;	
+}
